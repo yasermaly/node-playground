@@ -6,4 +6,8 @@ function capitalizeWords(str) {
     .join(' ');
 }
 
-module.exports = capitalizeWords;
+function makeMoney(amount) {
+  return `$${amount}`;
+}
+
+module.exports = { capitalizeWords, makeMoney };
