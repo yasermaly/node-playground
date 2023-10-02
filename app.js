@@ -1,7 +1,3 @@
-async function getUser() {
-  const response = await fetch('https://api.github.com/users/yasermaly');
-  const data = await response.json();
-  console.log(data);
-}
+const capitalizeWords = require('./utils');
 
-getUser();
+console.log(capitalizeWords('Hello World'));
