@@ -10,4 +10,4 @@ function makeMoney(amount) {
   return `$${amount}`;
 }
 
-module.exports = { capitalizeWords, makeMoney };
+export { capitalizeWords, makeMoney };
